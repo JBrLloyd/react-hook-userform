@@ -1,0 +1,83 @@
+
+.userForm-container {
+  background-color: rgba(24, 4, 32, 0.22);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.22);
+  padding: 0.5em;
+
+  input[type="button"],
+  input[type="submit"] {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(48, 14, 61);
+    border: 1px solid rgba(24, 4, 32, 0.9);
+    margin-top: 1em;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background: linear-gradient(to bottom, rgba(24, 4, 32, 1) 5%, rgba(24, 4, 32, 1) 100%);
+      background-color: rgba(24, 4, 32, 1);
+    }
+  }
+
+  .dobPicker {
+    display: inline-flex;
+    width: 100%;
+    // text-align: left;
+    font-size: 20px;
+
+    >span {
+      float: left;
+    }
+  }
+
+  input[type="date"],
+  select {
+    color: white;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="time"],
+  input[type="url"],
+  input[type="password"],
+  textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: white;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 45px;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  textarea {
+    resize: none;
+    overflow: hidden;
+  }
+}

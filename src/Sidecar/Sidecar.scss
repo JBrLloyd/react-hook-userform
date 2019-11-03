@@ -1,0 +1,12 @@
+.sidecar {
+  grid-area: sidebar;
+  
+  // display: flex;
+  justify-content: center;
+  align-content: center;
+  min-width: 15em;
+  background-image: url('img/cartoon-heart-circle.png');
+  background-repeat: no-repeat;
+  background-size: 15em;
+  vertical-align: middle;
+}
